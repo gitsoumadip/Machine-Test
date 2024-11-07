@@ -92,8 +92,8 @@ $(document).ready(function () {
                 },
                 zip_code: {
                     required: true,
-                    minlength: 6,
-                    maxlength: 6,
+                    minlength: 7,
+                    maxlength: 7,
                     digits: true,
                 },
                 class: {
@@ -114,7 +114,6 @@ $(document).ready(function () {
                 name: {
                     required: "Please enter your name.",
                 },
-
                 city_id: {
                     required: "Please select a city.",
                 },
@@ -127,8 +126,8 @@ $(document).ready(function () {
                 zip_code: {
                     required: "Please enter your zip code.",
                     digits: "Please enter a valid zip code.",
-                    minlength: "Zip code must be at least 6 digits.",
-                    maxlength: "Zip code cannot be more than 6 digits.",
+                    minlength: "Zip code must be at least 7 digits.",
+                    maxlength: "Zip code cannot be more than 7 digits.",
                 },
                 class: {
                     required: "Please enter your class.",
@@ -143,7 +142,6 @@ $(document).ready(function () {
                 profile_images: {
                     required: "Please upload a profile image.",
                 },
-                
             },
             submitHandler: function (form) {
                 $.ajaxSetup({

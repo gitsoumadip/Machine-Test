@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-md-4 adfilter-single">
                         <label for="">Date of Birth</label>
-                        <input type="text" class="form-control datepicker" name="date" id="date"
+                        <input type="date" class="form-control datepicker" name="date" id="date"
                             placeholder="Enter Date" value="{{ old('date', $isPatient->date ?? '') }}">
                         @error('date')
                             <span class="invalid-feedback d-block" role="alert">
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-4 adfilter-single">
                         <label for="">zip_code</label>
-                        <input type="number" class="form-control" name="zip_code" id="zip_code"
+                        <input type="number" class="form-control" min ="6" max="7" name="zip_code" id="zip_code"
                             placeholder=" Enter zip code" value="" data-listener-added_bddbe92d="true">
                         @error('zip_code')
                             <span class="invalid-feedback d-block" role="alert">
@@ -196,7 +196,7 @@
             <div class="col-md-3">
                 <div class="position-relative form-group">
                     <label class="">Phone Number</label>
-                    <input type="text" class="form-control field-phone" value="${phone}" 
+                    <input type="number" min="10" max="10" class="form-control field-phone" value="${phone}" 
                         name="f[${i}][phone]" placeholder="Enter Phone Number">
                 </div>
             </div>
