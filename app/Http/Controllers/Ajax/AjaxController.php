@@ -155,7 +155,7 @@ class AjaxController extends BaseController
             'state_id' => 'required|integer',
             'city_id' => 'required|integer',
             'address' => 'required|string',
-            'profile_img' => 'required|mimes:jpg,jpeg,png|max:1024',
+            'profile_images' => 'required|mimes:jpg,jpeg,png|max:1024',
             'f' => 'required|array',
             'f.*.name' => 'required|string',
             'f.*.phone' => 'required|string',
