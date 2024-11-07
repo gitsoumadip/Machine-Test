@@ -166,7 +166,7 @@ $(document).ready(function () {
                             response.message,
                             "success"
                         ).then(function () {
-                            location.href = baseUrl + "/";
+                            location.href = APP_URL + "/";
                         });
                     },
                     error: function (response) {
