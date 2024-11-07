@@ -1,0 +1,22 @@
+{
+    "relations": [
+        {
+            "name": "Father"
+        },
+        {
+            "name": "Mother"
+        },
+        {
+            "name": "Brother"
+        },
+        {
+            "name": "Sister"
+        },
+        {
+            "name": "Grand Father"
+        },
+        {
+            "name": "Grand Mother"
+        }
+    ]
+}
